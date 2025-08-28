@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, Calendar, Users } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-950/20 dark:to-indigo-950/20 py-20 lg:py-32">
+    <section className="relative bg-gradient-to-br from-blue-950 to-indigo-960 dark:from-blue-950/20 dark:to-indigo-950/20 py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
