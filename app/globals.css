@@ -4,21 +4,21 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: rgb(33, 18, 70); /*fundo central*/
-  --muted: rgb(42, 18, 88); /*fundo 2*/
-  --popover: rgb(18, 23, 70); /*fundo de selecoes*/
-  --foreground: rgb(255, 236, 239); /*titulos*/
-  --muted-foreground: rgb(214, 187, 227); /*texto geral*/
-  --card: rgb(54, 28, 91); /*fundo de caixas*/
-  --card-foreground: rgb(156, 87, 196); /*titulo de eventos e logos*/
-  --primary: rgb(91, 63, 151); /*botoes principais preenchidos*/
-  --primary-foreground: rgb(18, 23, 70); /*selecoes*/
-  --secondary: rgb(18, 23, 70); /*atras dos numeros*/
-  --secondary-foreground: rgb(157, 105, 209); /*num eventos*/
-  --accent: rgb(157, 105, 209); /*hover effect em quadrados nao preenchidos*/
-  --accent-foreground: rgb(18, 23, 70); /*cor simbolos pos selecao/mouse*/
-  --border: rgb(70, 40, 113); /*linha externa*/
-  --input: rgb(18, 23, 70); /*entorno de selecoes e box de texto*/
+  --background: rgb(21, 17, 17); /*fundo central*/
+  --muted: rgb(10, 8, 8); /*fundo 2*/
+  --popover: rgb(192, 113, 70); /*fundo de selecoes*/
+  --foreground: rgb(230, 175, 141); /*titulos*/
+  --muted-foreground: rgb(225, 203, 190); /*texto geral*/
+  --card: rgb(208, 113, 54); /*fundo de caixas*/
+  --card-foreground: rgb(238, 222, 208); /*titulo de eventos e logos*/
+  --primary: rgb(231, 122, 54); /*botoes principais preenchidos*/
+  --primary-foreground: rgb(177, 84, 41); /*selecoes*/
+  --secondary: rgb(21, 17, 17); /*atras dos numeros*/
+  --secondary-foreground: rgb(219, 112, 40); /*num eventos*/
+  --accent: rgb(133, 68, 28); /*hover effect em quadrados nao preenchidos*/
+  --accent-foreground: rgb(255, 222, 212); /*cor simbolos pos selecao/mouse*/
+  --border: rgb(133, 68, 28); /*linha externa*/
+  --input: rgb(174, 85, 26); /*entorno de selecoes e box de texto*/
 
 
   /* --sidebar-accent: rgb(18, 23, 70);
@@ -47,7 +47,7 @@
 }
 
 .title-blockchain, .eventos, .blog, .bibliografia, .contato {
-  color: rgb(255, 255, 255);
+  color: rgb(230, 175, 141);
   font-weight: bold;
   margin-bottom: 1.5rem;
   text-wrap: balance;
@@ -61,37 +61,16 @@
 }
 
 .desc {
-  color: rgb(187, 127, 213);
+  color: rgb(225, 203, 190);
 }
 
-.gradiente_princ {
-  position: relative;
-  background: linear-gradient(to bottom right, rgb(23, 37, 84), rgb(255, 0, 0));
-  padding: 5rem 0; /* py-20 */
-}
 
-@media (min-width: 1024px) {
-  .gradiente_princ {
-    padding: 8rem 0; /* lg:py-32 */
-  }
-}
-
-/* Para o modo dark, se necessário */
-@media (prefers-color-scheme: dark) {
-  .gradiente_princ {
-    background: linear-gradient(
-      to bottom right,
-      rgba(23, 37, 84, 0.2),
-      rgba(49, 46, 129, 0.2)
-    );
-  }
-}
 
 .dados1 {
   font-size: 1.875rem; 
   font-weight: 700; 
   color: var(--foreground);
-  color: rgb(255, 255, 255);
+  color: rgb(249, 127, 56);
 }
 
 .desc1 {
@@ -102,7 +81,7 @@
   margin-left: auto;       /* mx-auto */
   margin-right: auto;      /* mx-auto */
   text-wrap: pretty;       /* text-pretty */
-  color: rgb(255, 255, 255);
+  color: rgb(223, 142, 92);
 }
 
 .desc2 {
@@ -113,7 +92,7 @@
   margin-left: auto;       /* mx-auto */
   margin-right: auto;      /* mx-auto */
   text-wrap: pretty;       /* text-pretty */
-  color: rgb(255, 255, 255);
+  color: rgb(223, 142, 92);
 }
 
 .Pl_holder {
@@ -127,12 +106,12 @@
 
 .botoes {
   width: 100%;                    /* w-full */
-  background-color: #930ce1;      /* bg-blue-600 */
+  background-color: #ed8c1d;      /* bg-blue-600 */
   color: white;                   /* text-white */
 }
 
 .botoes:hover {
-  background-color: #6f10c2;      /* hover:bg-blue-700 */
+  background-color: #ff9c12;      /* hover:bg-blue-700 */
 }
 
 .def {
