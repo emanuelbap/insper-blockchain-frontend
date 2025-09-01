@@ -6,10 +6,10 @@ export function EventsHero() {
     <section className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-950/20 dark:to-indigo-950/20 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
+          <h1 className="eventos">
             Eventos Blockchain Insper
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto text-pretty">
+          <p className="desc1">
             Participe de workshops, palestras, hackathons e meetups sobre tecnologias blockchain. Conecte-se com a
             comunidade e expanda seus conhecimentos em Web3.
           </p>
@@ -29,22 +29,22 @@ export function EventsHero() {
               <div className="flex justify-center mb-2">
                 <Calendar className="h-8 w-8 text-blue-600" />
               </div>
-              <div className="text-3xl font-bold text-foreground">50+</div>
-              <div className="text-muted-foreground">Eventos Realizados</div>
+              <div className="dados1">50+</div>
+              <div className="desc2">Eventos Realizados</div>
             </div>
             <div className="text-center">
               <div className="flex justify-center mb-2">
                 <Users className="h-8 w-8 text-blue-600" />
               </div>
-              <div className="text-3xl font-bold text-foreground">2000+</div>
-              <div className="text-muted-foreground">Participantes</div>
+              <div className="dados1">2000+</div>
+              <div className="desc2">Participantes</div>
             </div>
             <div className="text-center">
               <div className="flex justify-center mb-2">
                 <Clock className="h-8 w-8 text-blue-600" />
               </div>
-              <div className="text-3xl font-bold text-foreground">500+</div>
-              <div className="text-muted-foreground">Horas de Conteúdo</div>
+              <div className="dados1">500+</div>
+              <div className="desc2">Horas de Conteúdo</div>
             </div>
           </div>
         </div>

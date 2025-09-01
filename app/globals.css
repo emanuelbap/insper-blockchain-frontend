@@ -4,80 +4,216 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --color-primary: rgb(246, 139, 35);
-  --color-secondary: #000;
-  --color-background: #000;
-  --color-text: rgb(246, 139, 35);
-  --color-accent: rgb(246, 139, 35);
-  --color-border: rgb(246, 139, 35);
-  --background: #000;
-  --foreground: rgb(246, 139, 35);
-  --card: #000;
-  --card-foreground: rgb(246, 139, 35);
-  --popover: #000;
-  --popover-foreground: rgb(246, 139, 35);
-  --primary: rgb(246, 139, 35);
-  --primary-foreground: #000;
-  --secondary: #000;
-  --secondary-foreground: rgb(246, 139, 35);
-  --muted: #000;
-  --muted-foreground: rgb(246, 139, 35);
-  --accent: rgb(246, 139, 35);
-  --accent-foreground: #000;
-  --destructive: rgb(246, 139, 35);
-  --destructive-foreground: #000;
-  --border: rgb(246, 139, 35);
-  --input: #000;
-  --ring: rgb(246, 139, 35);
-  --chart-1: rgb(246, 139, 35);
-  --chart-2: #000;
-  --chart-3: rgb(246, 139, 35);
-  --chart-4: #000;
-  --chart-5: rgb(246, 139, 35);
-  --sidebar: #000;
-  --sidebar-foreground: rgb(246, 139, 35);
-  --sidebar-primary: rgb(246, 139, 35);
-  --sidebar-primary-foreground: #000;
-  --sidebar-accent: #000;
-  --sidebar-accent-foreground: rgb(246, 139, 35);
-  --sidebar-border: rgb(246, 139, 35);
-  --sidebar-ring: rgb(246, 139, 35);
+  --background: rgb(33, 18, 70); /*fundo central*/
+  --muted: rgb(42, 18, 88); /*fundo 2*/
+  --popover: rgb(18, 23, 70); /*fundo de selecoes*/
+  --foreground: rgb(255, 236, 239); /*titulos*/
+  --muted-foreground: rgb(214, 187, 227); /*texto geral*/
+  --card: rgb(54, 28, 91); /*fundo de caixas*/
+  --card-foreground: rgb(156, 87, 196); /*titulo de eventos e logos*/
+  --primary: rgb(91, 63, 151); /*botoes principais preenchidos*/
+  --primary-foreground: rgb(18, 23, 70); /*selecoes*/
+  --secondary: rgb(18, 23, 70); /*atras dos numeros*/
+  --secondary-foreground: rgb(157, 105, 209); /*num eventos*/
+  --accent: rgb(157, 105, 209); /*hover effect em quadrados nao preenchidos*/
+  --accent-foreground: rgb(18, 23, 70); /*cor simbolos pos selecao/mouse*/
+  --border: rgb(70, 40, 113); /*linha externa*/
+  --input: rgb(18, 23, 70); /*entorno de selecoes e box de texto*/
+
+
+  /* --sidebar-accent: rgb(18, 23, 70);
+  --sidebar: rgb(18, 23, 70);
+  --sidebar-primary-foreground: rgb(18, 23, 70);
+  --chart-4: rgb(18, 23, 70);
+  --chart-2: rgb(18, 23, 70);
+  --destructive-foreground: rgb(18, 23, 70);
+  --color-background: rgb(18, 23, 70);
+  --color-secondary: rgb(18, 23, 70);
+  --color-primary: rgb(157, 105, 209);
+  --color-text: rgb(157, 105, 209);
+  --color-accent: rgb(157, 105, 209);
+  --color-border: rgb(157, 105, 209);
+  --popover-foreground: rgb(157, 105, 209);
+  --destructive: rgb(157, 105, 209);
+  --ring: rgb(157, 105, 209);
+  --chart-1: rgb(157, 105, 209);
+  --chart-3: rgb(157, 105, 209);
+  --chart-5: rgb(157, 105, 209);
+  --sidebar-foreground: rgb(157, 105, 209);
+  --sidebar-primary: rgb(157, 105, 209);
+  --sidebar-accent-foreground: rgb(157, 105, 209);
+  --sidebar-border: rgb(157, 105, 209);
+  --sidebar-ring: rgb(157, 105, 209); */
 }
 
-.dark {
-  --background: #000;
-  --foreground: rgb(246, 139, 35);
-  --card: #000;
-  --card-foreground: rgb(246, 139, 35);
-  --popover: #000;
-  --popover-foreground: rgb(246, 139, 35);
-  --primary: rgb(246, 139, 35);
-  --primary-foreground: #000;
-  --secondary: #000;
-  --secondary-foreground: rgb(246, 139, 35);
-  --muted: #000;
-  --muted-foreground: rgb(246, 139, 35);
-  --accent: rgb(246, 139, 35);
-  --accent-foreground: #000;
-  --destructive: rgb(246, 139, 35);
-  --destructive-foreground: #000;
-  --border: rgb(246, 139, 35);
-  --input: #000;
-  --ring: rgb(246, 139, 35);
-  --chart-1: rgb(246, 139, 35);
-  --chart-2: #000;
-  --chart-3: rgb(246, 139, 35);
-  --chart-4: #000;
-  --chart-5: rgb(246, 139, 35);
-  --sidebar: #000;
-  --sidebar-foreground: rgb(246, 139, 35);
-  --sidebar-primary: rgb(246, 139, 35);
-  --sidebar-primary-foreground: #000;
-  --sidebar-accent: #000;
-  --sidebar-accent-foreground: rgb(246, 139, 35);
-  --sidebar-border: rgb(246, 139, 35);
-  --sidebar-ring: rgb(246, 139, 35);
+.title-blockchain, .eventos, .blog, .bibliografia, .contato {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-wrap: balance;
+  font-size: 2.25rem; /* text-4xl */
 }
+
+@media (min-width: 768px) {
+  .title-blockchain, .eventos, .blog, .bibliografia, .contato {
+    font-size: 3rem; /* text-5xl */
+  }
+}
+
+.desc {
+  color: rgb(187, 127, 213);
+}
+
+.gradiente_princ {
+  position: relative;
+  background: linear-gradient(to bottom right, rgb(23, 37, 84), rgb(255, 0, 0));
+  padding: 5rem 0; /* py-20 */
+}
+
+@media (min-width: 1024px) {
+  .gradiente_princ {
+    padding: 8rem 0; /* lg:py-32 */
+  }
+}
+
+/* Para o modo dark, se necessário */
+@media (prefers-color-scheme: dark) {
+  .gradiente_princ {
+    background: linear-gradient(
+      to bottom right,
+      rgba(23, 37, 84, 0.2),
+      rgba(49, 46, 129, 0.2)
+    );
+  }
+}
+
+.dados1 {
+  font-size: 1.875rem; 
+  font-weight: 700; 
+  color: var(--foreground);
+  color: rgb(255, 255, 255);
+}
+
+.desc1 {
+  font-size: 1.25rem;      /* text-xl */
+  color: var(--muted-foreground);
+  margin-bottom: 3rem;     /* mb-12 */
+  max-width: 48rem;        /* max-w-3xl */
+  margin-left: auto;       /* mx-auto */
+  margin-right: auto;      /* mx-auto */
+  text-wrap: pretty;       /* text-pretty */
+  color: rgb(255, 255, 255);
+}
+
+.desc2 {
+  font-size: 1rem;      /* text-xl */
+  color: var(--muted-foreground);
+  margin-bottom: 3rem;     /* mb-12 */
+  max-width: 48rem;        /* max-w-3xl */
+  margin-left: auto;       /* mx-auto */
+  margin-right: auto;      /* mx-auto */
+  text-wrap: pretty;       /* text-pretty */
+  color: rgb(255, 255, 255);
+}
+
+.Pl_holder {
+  padding-left: 2.5rem;   
+  padding-right: 1rem;    
+  padding-top: 0.75rem;    
+  padding-bottom: 0.75rem; 
+  font-size: 1rem;        
+  color: rgb(255, 255, 255);
+}
+
+.botoes {
+  width: 100%;                    /* w-full */
+  background-color: #930ce1;      /* bg-blue-600 */
+  color: white;                   /* text-white */
+}
+
+.botoes:hover {
+  background-color: #6f10c2;      /* hover:bg-blue-700 */
+}
+
+.def {
+  background-color: #eab308;    /* bg-yellow-500 */
+  color: #000000;              /* text-black */
+  font-weight: 600;            /* font-semibold */
+}
+
+.team-member-card {
+  /* Card background and hover effect */
+  border: 1px solid var(--border);
+  transition: box-shadow 0.3s;
+}
+
+.team-member-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-image {
+  width: 8rem;  /* w-32 */
+  height: 8rem; /* h-32 */
+  border-radius: 9999px;
+  margin: 0 auto;
+  object-fit: cover;
+  border: 4px solid rgb(219, 234, 254); /* border-blue-100 */
+}
+
+.team-member-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+}
+
+.team-member-role {
+  color: rgb(255, 0, 0); /* Pode alterar este valor RGB para mudar a cor do cargo */
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.team-member-description {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+/* .dark {
+  --background: rgb(18, 23, 70);
+  --foreground: rgb(157, 105, 209);
+  --card: rgb(18, 23, 70);
+  --card-foreground: rgb(157, 105, 209);
+  --popover: rgb(18, 23, 70);
+  --popover-foreground: rgb(157, 105, 209);
+  --primary: rgb(157, 105, 209);
+  --primary-foreground: rgb(18, 23, 70);
+  --secondary: rgb(18, 23, 70);
+  --secondary-foreground: rgb(157, 105, 209);
+  --muted: rgb(18, 23, 70);
+  --muted-foreground: rgb(157, 105, 209);
+  --accent: rgb(157, 105, 209);
+  --accent-foreground: rgb(18, 23, 70);
+  --destructive: rgb(157, 105, 209);
+  --destructive-foreground: rgb(18, 23, 70);
+  --border: rgb(157, 105, 209);
+  --input: rgb(18, 23, 70);
+  --ring: rgb(157, 105, 209);
+  --chart-1: rgb(157, 105, 209);
+  --chart-2: rgb(18, 23, 70);
+  --chart-3: rgb(157, 105, 209);
+  --chart-4: rgb(18, 23, 70);
+  --chart-5: rgb(157, 105, 209);
+  --sidebar: rgb(18, 23, 70);
+  --sidebar-foreground: rgb(157, 105, 209);
+  --sidebar-primary: rgb(157, 105, 209);
+  --sidebar-primary-foreground: rgb(18, 23, 70);
+  --sidebar-accent: rgb(18, 23, 70);
+  --sidebar-accent-foreground: rgb(157, 105, 209);
+  --sidebar-border: rgb(157, 105, 209);
+  --sidebar-ring: rgb(157, 105, 209);
+  codigo sem utilidade?
+} */
 
 @theme inline {
   --font-sans: var(--font-geist-sans);

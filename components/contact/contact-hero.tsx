@@ -5,8 +5,8 @@ export function ContactHero() {
     <section className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-950/20 dark:to-indigo-950/20 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">Entre em Contato</h1>
-          <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty">
+          <h1 className="contato">Entre em Contato</h1>
+          <p className="desc1">
             Tem dúvidas, sugestões ou quer fazer parte da nossa comunidade? Estamos aqui para ajudar e conectar você ao
             universo blockchain.
           </p>
@@ -19,8 +19,8 @@ export function ContactHero() {
                   <MessageSquare className="h-8 w-8 text-blue-600" />
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Chat Direto</h3>
-              <p className="text-muted-foreground">Discord e WhatsApp para conversas rápidas</p>
+              <h3 className="dados1">Chat Direto</h3>
+              <p className="desc2">Discord e WhatsApp para conversas rápidas</p>
             </div>
             <div className="text-center">
               <div className="flex justify-center mb-4">
@@ -28,8 +28,8 @@ export function ContactHero() {
                   <Mail className="h-8 w-8 text-purple-600" />
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
-              <p className="text-muted-foreground">Respostas detalhadas em até 24h</p>
+              <h3 className="dados1">Email</h3>
+              <p className="desc2">Respostas detalhadas em até 24h</p>
             </div>
             <div className="text-center">
               <div className="flex justify-center mb-4">
@@ -37,8 +37,8 @@ export function ContactHero() {
                   <Users className="h-8 w-8 text-green-600" />
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-foreground mb-2">Presencial</h3>
-              <p className="text-muted-foreground">Encontros regulares no campus Insper</p>
+              <h3 className="dados1">Presencial</h3>
+              <p className="desc2">Encontros regulares no campus Insper</p>
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ export function FeaturedPosts() {
               <div className="relative">
                 <img src={post.image || "/placeholder.svg"} alt={post.title} className="w-full h-64 object-cover" />
                 <div className="absolute top-4 left-4">
-                  <Badge className="bg-yellow-500 text-black font-semibold">Destaque</Badge>
+                  <Badge className="def">Destaque</Badge>
                 </div>
                 <div className="absolute top-4 right-4">
                   <Badge variant="secondary" className="bg-white/90 text-foreground">
