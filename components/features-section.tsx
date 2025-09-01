@@ -59,7 +59,7 @@ export function FeaturesSection() {
                 </div>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-muted-foreground">{feature.description}</CardDescription>
+                <CardDescription className="desc">{feature.description}</CardDescription>
               </CardContent>
             </Card>
           ))}

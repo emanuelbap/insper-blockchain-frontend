@@ -12,10 +12,10 @@ export default function AboutPage() {
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-950/20 dark:to-indigo-950/20 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-balance">
+            <h1 className="title-blockchain">
               Sobre o Blockchain Insper
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
+            <p className="desc1">
               Conheça nossa história, missão e a equipe dedicada a democratizar o conhecimento em tecnologias blockchain
               no ambiente acadêmico.
             </p>

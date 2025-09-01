@@ -114,7 +114,7 @@ export function FeaturedResources() {
                   {resource.readTime}
                 </div>
 
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white" asChild>
+                <Button className="botoes" asChild>
                   <a href={resource.link} target="_blank" rel="noopener noreferrer">
                     Acessar Recurso
                     <ExternalLink className="ml-2 h-4 w-4" />
