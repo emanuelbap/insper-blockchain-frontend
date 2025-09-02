@@ -7,8 +7,8 @@
   --background: rgb(21, 17, 17); /*fundo central*/
   --muted: rgb(10, 8, 8); /*fundo 2*/
   --popover: rgb(192, 113, 70); /*fundo de selecoes*/
-  --foreground: rgb(230, 175, 141); /*titulos*/
-  --muted-foreground: rgb(225, 203, 190); /*texto geral*/
+  --foreground: rgb(224, 150, 104); /*titulos*/
+  --muted-foreground: rgb(221, 184, 163); /*texto geral*/
   --card: rgb(208, 113, 54); /*fundo de caixas*/
   --card-foreground: rgb(238, 222, 208); /*titulo de eventos e logos*/
   --primary: rgb(231, 122, 54); /*botoes principais preenchidos*/
