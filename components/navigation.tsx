@@ -2,11 +2,13 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { useRouter } from 'next/navigation'
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
+  const router = useRouter()
 
   const navItems = [
     { href: "/", label: "Início" },
@@ -40,7 +42,9 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            <Button className="text-white">Junte-se a nós</Button>
+            <Button className="text-white" onClick={() => router.push('/register')}>
+              Junte-se a nós
+            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -66,7 +70,15 @@ export function Navigation() {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full text-white">Junte-se a nós</Button>
+                <Button 
+                  className="w-full text-white"
+                  onClick={() => {
+                    router.push('/register')
+                    setIsOpen(false)
+                  }}
+                >
+                  Junte-se a nós
+                </Button>
               </div>
             </div>
           </div>
