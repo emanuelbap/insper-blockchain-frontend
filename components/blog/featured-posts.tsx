@@ -82,7 +82,7 @@ export function FeaturedPosts() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                <Button className="w-full text-[#DE5110] hover:bg-orange-700 text-white">
                   Ler Artigo Completo
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>

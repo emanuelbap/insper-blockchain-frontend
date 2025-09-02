@@ -21,7 +21,7 @@ export function BlogCategories() {
             <Button
               key={index}
               variant={category.active ? "default" : "outline"}
-              className={`${category.active ? "bg-blue-600 hover:bg-blue-700 text-white" : ""} flex items-center gap-2`}
+              className={`${category.active ? "text-[#DE5110] hover:bg-orange-700 text-white" : ""} flex items-center gap-2`}
             >
               {category.name}
               <Badge variant="secondary" className="text-xs">

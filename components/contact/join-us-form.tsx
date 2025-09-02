@@ -62,15 +62,15 @@ export function JoinUsForm() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
                 <div className="text-center">
-                  <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                  <Users className="h-8 w-8 text-orange-600 mx-auto mb-2" />
                   <p className="text-sm text-muted-foreground">Acesso ao Discord</p>
                 </div>
                 <div className="text-center">
-                  <Zap className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                  <Zap className="h-8 w-8 text-orange-600 mx-auto mb-2" />
                   <p className="text-sm text-muted-foreground">Eventos Exclusivos</p>
                 </div>
                 <div className="text-center">
-                  <BookOpen className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                  <BookOpen className="h-8 w-8 text-orange-600 mx-auto mb-2" />
                   <p className="text-sm text-muted-foreground">Recursos Premium</p>
                 </div>
               </div>
@@ -191,7 +191,7 @@ export function JoinUsForm() {
                 </Label>
               </div>
 
-              <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg py-3">
+              <Button type="submit" className="w-full text-[#DE5110] hover:bg-orange-700 text-white text-lg py-3">
                 Inscrever-se na Comunidade
                 <UserPlus className="ml-2 h-5 w-5" />
               </Button>

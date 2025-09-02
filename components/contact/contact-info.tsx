@@ -11,7 +11,7 @@ export function ContactInfo() {
         </CardHeader>
         <CardContent className="space-y-6">
           <div className="flex items-start space-x-3">
-            <MapPin className="h-5 w-5 text-blue-600 mt-1" />
+            <MapPin className="h-5 w-5 text-orange-600 mt-1" />
             <div>
               <h3 className="font-semibold text-foreground">Localização</h3>
               <p className="text-muted-foreground">
@@ -25,7 +25,7 @@ export function ContactInfo() {
           </div>
 
           <div className="flex items-start space-x-3">
-            <Clock className="h-5 w-5 text-blue-600 mt-1" />
+            <Clock className="h-5 w-5 text-orange-600 mt-1" />
             <div>
               <h3 className="font-semibold text-foreground">Horário de Atendimento</h3>
               <p className="text-muted-foreground">
@@ -39,7 +39,7 @@ export function ContactInfo() {
           </div>
 
           <div className="flex items-start space-x-3">
-            <Mail className="h-5 w-5 text-blue-600 mt-1" />
+            <Mail className="h-5 w-5 text-orange-600 mt-1" />
             <div>
               <h3 className="font-semibold text-foreground">Email</h3>
               <p className="text-muted-foreground">contato@blockchaininsper.org</p>
@@ -47,7 +47,7 @@ export function ContactInfo() {
           </div>
 
           <div className="flex items-start space-x-3">
-            <Phone className="h-5 w-5 text-blue-600 mt-1" />
+            <Phone className="h-5 w-5 text-orange-600 mt-1" />
             <div>
               <h3 className="font-semibold text-foreground">Telefone</h3>
               <p className="text-muted-foreground">(11) 4504-2400</p>

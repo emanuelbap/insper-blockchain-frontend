@@ -29,21 +29,21 @@ export function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="flex justify-center mb-2">
-                <Users className="h-8 w-8 text-blue-600" />
+                <Users className="h-8 w-8 text-orange-600" />
               </div>
               <div className="text-3xl font-bold text-foreground">500+</div>
               <div className="text-muted-foreground">Membros Ativos</div>
             </div>
             <div className="text-center">
               <div className="flex justify-center mb-2">
-                <Calendar className="h-8 w-8 text-blue-600" />
+                <Calendar className="h-8 w-8 text-orange-600" />
               </div>
               <div className="text-3xl font-bold text-foreground">50+</div>
               <div className="text-muted-foreground">Eventos Realizados</div>
             </div>
             <div className="text-center">
               <div className="flex justify-center mb-2">
-                <BookOpen className="h-8 w-8 text-blue-600" />
+                <BookOpen className="h-8 w-8 text-orange-600" />
               </div>
               <div className="text-3xl font-bold text-foreground">100+</div>
               <div className="text-muted-foreground">Recursos Educacionais</div>

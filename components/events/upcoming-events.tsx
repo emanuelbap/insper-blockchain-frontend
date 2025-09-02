@@ -68,7 +68,7 @@ export function UpcomingEvents() {
               <div className="relative">
                 <img src={event.image || "/placeholder.svg"} alt={event.title} className="w-full h-48 object-cover" />
                 <div className="absolute top-4 left-4">
-                  <Badge className="bg-blue-600 text-white">{event.category}</Badge>
+                  <Badge className="text-[#DE5110] text-white">{event.category}</Badge>
                 </div>
                 <div className="absolute top-4 right-4">
                   <Badge variant="secondary" className="bg-white/90 text-foreground">
@@ -104,7 +104,7 @@ export function UpcomingEvents() {
 
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground mb-3">Instrutor: {event.instructor}</p>
-                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">Inscrever-se</Button>
+                  <Button className="w-full text-[#DE5110] hover:bg-orange-700 text-white">Inscrever-se</Button>
                 </div>
               </CardContent>
             </Card>

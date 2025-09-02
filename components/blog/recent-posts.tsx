@@ -96,7 +96,7 @@ export function RecentPosts() {
               <div className="relative">
                 <img src={post.image || "/placeholder.svg"} alt={post.title} className="w-full h-48 object-cover" />
                 <div className="absolute top-4 left-4">
-                  <Badge className="bg-blue-600 text-white">{post.category}</Badge>
+                  <Badge className="text-[#DE5110] text-white">{post.category}</Badge>
                 </div>
               </div>
 
@@ -138,7 +138,7 @@ export function RecentPosts() {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+          <Button size="lg" className="text-[#DE5110] hover:bg-orange-700 text-white">
             Ver Todos os Artigos
           </Button>
         </div>

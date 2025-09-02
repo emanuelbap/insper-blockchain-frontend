@@ -78,11 +78,11 @@ export function TeamSection() {
                   <img
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
-                    className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-blue-100 dark:border-blue-900/20"
+                    className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-amber-100 dark:border-amber-100/20"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{member.name}</h3>
-                <p className="text-blue-600 font-semibold mb-3">{member.role}</p>
+                <p className="text-amber-100 font-semibold mb-3">{member.role}</p>
                 <p className="text-muted-foreground mb-6 text-sm">{member.description}</p>
                 <div className="flex justify-center space-x-3">
                   <Button variant="outline" size="sm" asChild>
@@ -112,7 +112,7 @@ export function TeamSection() {
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Estamos sempre em busca de pessoas apaixonadas por blockchain e educação. Entre em contato conosco!
           </p>
-          <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+          <Button size="lg" className="text-[#DE5110] hover:bg-orange-700 text-white">
             Entre em Contato
           </Button>
         </div>

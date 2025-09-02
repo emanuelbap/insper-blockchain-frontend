@@ -9,7 +9,7 @@ export function Footer() {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-orange-600 to-purple-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">BI</span>
               </div>
               <span className="font-bold text-xl text-foreground">Blockchain Insper</span>
@@ -19,16 +19,16 @@ export function Footer() {
               futuro da tecnologia descentralizada.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <Link href="#" className="text-muted-foreground hover:text-orange-600 transition-colors">
                 <Github className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <Link href="#" className="text-muted-foreground hover:text-orange-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <Link href="#" className="text-muted-foreground hover:text-orange-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <Link href="#" className="text-muted-foreground hover:text-orange-600 transition-colors">
                 <MessageCircle className="h-5 w-5" />
               </Link>
             </div>

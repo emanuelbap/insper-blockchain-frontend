@@ -52,8 +52,8 @@ export function FeaturesSection() {
             <Card key={index} className="border-border hover:shadow-lg transition-shadow duration-300">
               <CardHeader>
                 <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-blue-100 dark:bg-blue-900/20 rounded-lg">
-                    <feature.icon className="h-6 w-6 text-blue-600" />
+                  <div className="p-2 bg-orange-100 dark:bg-orange-900/20 rounded-lg">
+                    <feature.icon className="h-6 w-6 text-orange-600" />
                   </div>
                   <CardTitle className="text-lg">{feature.title}</CardTitle>
                 </div>

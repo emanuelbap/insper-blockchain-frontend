@@ -18,8 +18,8 @@ export function MissionSection() {
           <Card className="border-border hover:shadow-lg transition-shadow duration-300">
             <CardContent className="p-8 text-center">
               <div className="flex justify-center mb-6">
-                <div className="p-4 bg-blue-100 dark:bg-blue-900/20 rounded-full">
-                  <Target className="h-8 w-8 text-blue-600" />
+                <div className="p-4 bg-orange-100 dark:bg-orange-900/20 rounded-full">
+                  <Target className="h-8 w-8 text-orange-600" />
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Missão</h3>

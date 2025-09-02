@@ -26,7 +26,7 @@ export function SocialLinks() {
       icon: Linkedin,
       link: "https://linkedin.com/company/blockchain-insper",
       members: "1000+ seguidores",
-      color: "bg-blue-700 hover:bg-blue-800",
+      color: "bg-orange-700 hover:bg-orange-800",
     },
     {
       name: "Instagram",
@@ -78,7 +78,7 @@ export function SocialLinks() {
           <Card className="max-w-2xl mx-auto border-border">
             <CardContent className="p-8">
               <div className="flex justify-center mb-4">
-                <Users className="h-12 w-12 text-blue-600" />
+                <Users className="h-12 w-12 text-orange-600" />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Comunidade Ativa</h3>
               <p className="text-muted-foreground mb-6">
@@ -87,19 +87,19 @@ export function SocialLinks() {
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">500+</div>
+                  <div className="text-2xl font-bold text-orange-600">500+</div>
                   <div className="text-sm text-muted-foreground">Discord</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">1000+</div>
+                  <div className="text-2xl font-bold text-orange-600">1000+</div>
                   <div className="text-sm text-muted-foreground">LinkedIn</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">800+</div>
+                  <div className="text-2xl font-bold text-orange-600">800+</div>
                   <div className="text-sm text-muted-foreground">Instagram</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">50+</div>
+                  <div className="text-2xl font-bold text-orange-600">50+</div>
                   <div className="text-sm text-muted-foreground">Projetos</div>
                 </div>
               </div>

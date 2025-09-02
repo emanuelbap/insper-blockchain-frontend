@@ -10,7 +10,7 @@ export default function AboutPage() {
       <Navigation />
       <main>
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-950/20 dark:to-indigo-950/20 py-20">
+        <section className="bg-gradient-to-br from-orange-50 to-indigo-100 dark:from-orange-950/20 dark:to-indigo-950/20 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="title-blockchain">
               Sobre o Blockchain Insper
